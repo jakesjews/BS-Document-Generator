@@ -71,12 +71,8 @@ def printChart(pdf)
 
 end 
 
-Prawn::Document.generate("public/bstmp.pdf") do |pdf| 
-
-  printHeading(pdf)
-  printParagraph1(pdf)
-  printBulletPoints(pdf)
-  printParagraph2(pdf)
-  printChart(pdf)
-
-end
+printHeading(pdf)
+printParagraph1(pdf)
+printBulletPoints(pdf)
+printParagraph2(pdf)
+printChart(pdf)
