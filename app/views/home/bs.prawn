@@ -71,7 +71,7 @@ def printChart(pdf)
 
 end 
 
-Prawn::Document.generate("app/views/home/bstmp.pdf") do |pdf| 
+Prawn::Document.generate("public/bstmp.pdf") do |pdf| 
 
   printHeading(pdf)
   printParagraph1(pdf)
