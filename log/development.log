@@ -1394,3 +1394,10 @@ Started GET "/bs_generator/get_pdf.pdf" for 127.0.0.1 at Mon Apr 25 02:12:56 -04
 Rendered text template (0.0ms)
 Sent data bs.pdf (0.9ms)
 Completed 200 OK in 194ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bs_generator/get_pdf.pdf" for 127.0.0.1 at Mon Apr 25 02:30:57 -0400 2011
+  Processing by BsGeneratorController#get_pdf as PDF
+Rendered text template (0.0ms)
+Sent data bs.pdf (0.8ms)
+Completed 200 OK in 246ms (Views: 0.7ms | ActiveRecord: 0.0ms)
