@@ -1,6 +1,3 @@
-<head>
-<meta name="google-site-verification" content="XuX6TLpSvFQh9wl1Wj98DCSuk_a4xV9OYgW5Mi_wsBA" />
-</head>
 require 'rubygems'
 require 'prawn'
 require 'prawn/graph'
