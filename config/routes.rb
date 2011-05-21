@@ -1,6 +1,7 @@
 Bsgenerator::Application.routes.draw do
 
-  get "home/bs"
+ get "home/google952a1a32b00004a3.html"
+ # get "home/bs"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
