@@ -1,7 +1,6 @@
 Bsgenerator::Application.routes.draw do
 
-  get "home/temp"
-  #get "home/bs"
+  get "home/bs"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
