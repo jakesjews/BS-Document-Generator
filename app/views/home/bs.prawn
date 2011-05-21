@@ -1,3 +1,4 @@
+<<meta name="google-site-verification" content="Jab1VzmBdks5J1BfySRDvRWFQ7QNeqv8VflntGL5K98" />
 require 'rubygems'
 require 'prawn'
 require 'prawn/graph'
