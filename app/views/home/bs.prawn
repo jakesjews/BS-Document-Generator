@@ -6,7 +6,7 @@ def printParagraph1(pdf)
 	
   printSubHeading(pdf)
 
-	pdf.text("We plan to use " + @controller.getAdjective() + " " + @controller.getNoun() + " to " + @controller.getVerb() + " our systems. This will allow us to easily " + @controller.getVerb() + " our " + @controller.getNoun() + ". Within six months we expect that our " + @controller.getAdjective() + " " + @controller.getNoun() + " will bring " + rand(99).to_s + "% more value to our " + @controller.getAdjective() + " " + @controller.getNoun())
+	pdf.text("We plan to use " + @controller.getAdjective() + " " + @controller.getNoun() + " to " + @controller.getVerb() + " our systems. This will allow us to easily " + @controller.getVerb() + " more " + @controller.getNoun() + ". Within six months we expect that our " + @controller.getAdjective() + " " + @controller.getNoun() + " will bring " + rand(99).to_s + "% more value to our " + @controller.getAdjective() + " " + @controller.getNoun() + ".")
 
   pdf.text("\n")
 
