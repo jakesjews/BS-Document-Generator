@@ -2,11 +2,15 @@ require 'rubygems'
 require 'prawn'
 require 'prawn/graph'
 
+def nbsp
+  0xC2.chr + 0xA0.chr
+end
+
 def printParagraph1(pdf)
 	
   printSubHeading(pdf)
 
-	pdf.text("We plan to use&nbsp;" + @controller.getAdjective() + " " + @controller.getNoun() + " to " + @controller.getVerb() + " our systems. This will allow us to easily " + @controller.getVerb() + " more " + @controller.getNoun() + ". Within six months we expect that our " + @controller.getAdjective() + " " + @controller.getNoun() + " will bring " + rand(99).to_s + "% more value to our " + @controller.getAdjective() + " " + @controller.getNoun() + ".")
+	pdf.text("We plan to use" + nbsp + @controller.getAdjective() + " " + @controller.getNoun() + " to " + @controller.getVerb() + " our systems. This will allow us to easily " + @controller.getVerb() + " more " + @controller.getNoun() + ". Within six months we expect that our " + @controller.getAdjective() + " " + @controller.getNoun() + " will bring " + rand(99).to_s + "% more value to our " + @controller.getAdjective() + " " + @controller.getNoun() + ".")
 
   pdf.text("\n")
 
