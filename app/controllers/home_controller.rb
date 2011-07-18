@@ -32,6 +32,6 @@ end
 
 class Array
   def nitems
-      count {|i| !i.nil?}
-        end
-        end
+    count {|i| !i.nil?}
+  end   
+end
