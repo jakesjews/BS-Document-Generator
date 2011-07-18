@@ -7,7 +7,7 @@ gem 'rails', '3.0.7'
 
 gem 'sqlite3'
 gem 'prawn'
-#gem 'prawn-graph'
+gem 'prawn-graph'
 gem 'pdf-reader'
 gem 'Ascii85'
 # Use unicorn as the web server
