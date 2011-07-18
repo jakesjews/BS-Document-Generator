@@ -3,10 +3,6 @@ require 'prawn'
 require 'prawn/graph'
 
 class Array
-  def nitems
-      count {|i| !i.nil?}
-        end
-        end
 
 def printParagraph1(pdf)
 	
