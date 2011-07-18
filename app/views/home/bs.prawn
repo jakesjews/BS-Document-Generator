@@ -2,8 +2,6 @@ require 'rubygems'
 require 'prawn'
 require 'prawn/graph'
 
-class Array
-
 def printParagraph1(pdf)
 	
   printSubHeading(pdf)
