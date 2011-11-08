@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Bsgenerator::Application.config.secret_token = '70141c15acf70ed60d17a5c4965fa8b2d504e4a87acc2bd30894937c6f92ebb79c15e30e0b5483651b6573691dce814ee63c315eecc0de363ed5e53ef27938b9'
+BsGenerator::Application.config.secret_token = '1da12489edc5291b78e00bb40ba7745c41dac867fc81adad187a80605da7118a7db9758f610b8b3c463edbaf4a4293192a7849047850a4dfc900adf01603c42c'
