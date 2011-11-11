@@ -1,1 +1,2 @@
-A rails app hosted on Heroku that creates satirical documentation. The wordlists can be found in /app/controllers/home_controller.rb.
+A rails app hosted on Heroku that creates satirical documentation. 
+The wordlists can be found in /db/seeds.rb.
