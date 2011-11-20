@@ -9050,3 +9050,551 @@ Started GET "/" for 127.0.0.1 at 2011-11-08 00:37:49 -0500
   [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 2
 Rendered words/index.pdf.prawn (178.8ms)
 Completed 200 OK in 183ms (Views: 160.6ms | ActiveRecord: 20.5ms)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+  [1m[36m (0.1ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (0.4ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateWords (20111028002304)
+  [1m[36m (0.1ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (2.5ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'words'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname = ANY (current_schemas(false)) )
+ ORDER BY i.relname
+[0m
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+  [1m[36m (0.2ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (6.9ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "action-items"], ["word_type", "noun"]]
+  [1m[36m (19.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "applications"], ["word_type", "noun"]]
+  [1m[35m (98.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (109.5ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "architectures"], ["word_type", "noun"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "bandwidth"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "channels"], ["word_type", "noun"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "communities"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "content"], ["word_type", "noun"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "convergence"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "deliverables"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "e-business"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "e-commerce"], ["word_type", "noun"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "e-markets"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "e-services"], ["word_type", "noun"]]
+  [1m[36m (96.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "e-tailers"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "experiences"], ["word_type", "noun"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "functionalities"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "infomediaries"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "infrastructures"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "initiatives"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "interfaces"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "markets"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "methodologies"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "metrics"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "mindshare"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "models"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "networks"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "niches"], ["word_type", "noun"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "paradigms"], ["word_type", "noun"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "partnerships"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "platforms"], ["word_type", "noun"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "portals"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "relationships"], ["word_type", "noun"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "ROI"], ["word_type", "noun"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "synergies"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "web-readiness"], ["word_type", "noun"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "schemas"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "solutions"], ["word_type", "noun"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "supply-chains"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "systems"], ["word_type", "noun"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "technologies"], ["word_type", "noun"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "users"], ["word_type", "noun"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "decision-trees"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "interoperability"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "XML Interfaces"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "JSON Interfaces"], ["word_type", "noun"]]
+  [1m[36m (93.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "RSS Feedsblogs"], ["word_type", "noun"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "wikis"], ["word_type", "noun"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "mashups"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "folksonomies"], ["word_type", "noun"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "frameworks"], ["word_type", "noun"]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "blogospheres"], ["word_type", "noun"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "aggregate"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "architect"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "benchmark"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "brand"], ["word_type", "verb"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "cultivate"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "deliver"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "deploy"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "disintermediate"], ["word_type", "verb"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "drive"], ["word_type", "verb"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "e-enable"], ["word_type", "verb"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "embrace"], ["word_type", "verb"]]
+  [1m[35m (92.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "empower"], ["word_type", "verb"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "enable"], ["word_type", "verb"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "engage"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "engineer"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "enhance"], ["word_type", "verb"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "envisioneer"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "evolve"], ["word_type", "verb"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "expedite"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "exploit"], ["word_type", "verb"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "extend"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "facilitate"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "generate"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "grow"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "harness"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "implement"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (102.8ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:29 UTC +00:00], ["word", "incentivize"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "incubate"], ["word_type", "verb"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "innovate"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "integrate"], ["word_type", "verb"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "iterate"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "leverage"], ["word_type", "verb"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "maximize"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "mesh"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "monetize"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "morph"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "optimize"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "orchestrate"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "recontextualize"], ["word_type", "verb"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "reintermediate"], ["word_type", "verb"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "reinvent"], ["word_type", "verb"]]
+  [1m[35m (92.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "repurpose"], ["word_type", "verb"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "revolutionize"], ["word_type", "verb"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "scale"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "seize"], ["word_type", "verb"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "strategize"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "streamline"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "syndicate"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "synergize"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "synthesize"], ["word_type", "verb"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "target"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "transform"], ["word_type", "verb"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "transition"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "unleash"], ["word_type", "verb"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "utilize"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "visualize"], ["word_type", "verb"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "whiteboard"], ["word_type", "verb"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "24/365"], ["word_type", "adjective"]]
+  [1m[36m (94.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "24/7"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "B2B"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "B2C"], ["word_type", "adjective"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "back-end"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "best-of-breed"], ["word_type", "adjective"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "bleeding-edge"], ["word_type", "adjective"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "bricks-and-clicks"], ["word_type", "adjective"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "clicks-and-mortar"], ["word_type", "adjective"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "collaborative"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "compelling"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "cross-platform"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "cross-media"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "customized"], ["word_type", "adjective"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "cutting-edge"], ["word_type", "adjective"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "distributed"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "dot-com"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "dynamic"], ["word_type", "adjective"]]
+  [1m[35m (93.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "e-business"], ["word_type", "adjective"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "efficient"], ["word_type", "adjective"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "end-to-end"], ["word_type", "adjective"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "enterprise"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "extensible"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "frictionless"], ["word_type", "adjective"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "front-end"], ["word_type", "adjective"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "global"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "granular"], ["word_type", "adjective"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "holistic"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "impactful"], ["word_type", "adjective"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "innovative"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "integrated"], ["word_type", "adjective"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "interactive"], ["word_type", "adjective"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "intuitive"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "killer"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "leading-edge"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "magnetic"], ["word_type", "adjective"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "mission-critical"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "next-generation"], ["word_type", "adjective"]]
+  [1m[35m (94.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "one-to-one"], ["word_type", "adjective"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "open-source"], ["word_type", "adjective"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "out-of-the-box"], ["word_type", "adjective"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "plug-and-play"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "proactive"], ["word_type", "adjective"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (16.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "real-time"], ["word_type", "adjective"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "revolutionary"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "robust"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "scalable"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "seamless"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "sticky"], ["word_type", "adjective"]]
+  [1m[36m (89.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "strategic"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "synergistic"], ["word_type", "adjective"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "transparent"], ["word_type", "adjective"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "turn-key"], ["word_type", "adjective"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "ubiquitous"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "user-centric"], ["word_type", "adjective"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "value-added"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "vertical"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "viral"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "virtual"], ["word_type", "adjective"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "visionary"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "web-enabled"], ["word_type", "adjective"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "wireless"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "world-class"], ["word_type", "adjective"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "cloud"], ["word_type", "adjective"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "social"], ["word_type", "adjective"]]
+  [1m[36m (96.0ms)[0m  [1mCOMMIT[0m
