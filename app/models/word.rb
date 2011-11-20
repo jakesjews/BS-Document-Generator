@@ -21,10 +21,10 @@ class Word < ActiveRecord::Base
   end 
 
   def getParagraph1
-	  "We plan to use #{Word.getAdj} #{Word.getNoun} to #{Word.getVerb} our systems." +
-    "This will allow us to easily #{Word.getVerb} more #{Word.getNoun}. " + 
+    "We plan to use #{Word.getAdj} #{Word.getNoun} to #{Word.getVerb} our systems. " + 
+    "This will allow us to easily #{Word.getVerb} more #{Word.getNoun}. " +  
     "Within six months we expect that our #{Word.getAdj} #{Word.getNoun} will bring " +
-    "#{rand(99).to_s}% more value to our #{Word.getAdj} #{Word.getNoun}." 
+    "#{rand(99).to_s}% more value to our #{Word.getAdj} #{Word.getNoun}. 
   end
 
   def getParagraph2
