@@ -9050,3 +9050,18 @@ Started GET "/" for 127.0.0.1 at 2011-11-08 00:37:49 -0500
   [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 2
 Rendered words/index.pdf.prawn (178.8ms)
 Completed 200 OK in 183ms (Views: 160.6ms | ActiveRecord: 20.5ms)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 19:12:52 -0500
+
+PGError (FATAL:  password authentication failed for user "postgres"
+):
+  
+
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
