@@ -9065,3 +9065,192 @@ PGError (FATAL:  password authentication failed for user "postgres"
 Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
 Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
 Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+  [1m[36m (0.3ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (20.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+  [1m[36m (0.1ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36mWord Load (424.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'action-items' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'applications' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'architectures' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'bandwidth' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'channels' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'communities' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'content' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'convergence' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'deliverables' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-business' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-commerce' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-markets' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-services' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-tailers' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'experiences' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'functionalities' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'infomediaries' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'infrastructures' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'initiatives' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'interfaces' LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'markets' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'methodologies' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'metrics' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'mindshare' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'models' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'networks' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'niches' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'paradigms' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'partnerships' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'platforms' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'portals' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'relationships' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'ROI' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'synergies' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'web-readiness' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'schemas' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'solutions' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'supply-chains' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'systems' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'technologies' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'users' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'decision-trees' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'interoperability' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'XML Interfaces' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'JSON Interfaces' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'RSS Feedsblogs' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'wikis' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'mashups' LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'folksonomies' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'frameworks' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'blogospheres' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'aggregate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'architect' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'benchmark' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'brand' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'cultivate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'deliver' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'deploy' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'disintermediate' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'drive' LIMIT 1
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'e-enable' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'embrace' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'empower' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'enable' LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'engage' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'engineer' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'enhance' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'envisioneer' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'evolve' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'expedite' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'exploit' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'extend' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'facilitate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'generate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'grow' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'harness' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'implement' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'incentivize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'incubate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'innovate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'integrate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'iterate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'leverage' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'maximize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'mesh' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'monetize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'morph' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'optimize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'orchestrate' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'recontextualize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'reintermediate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'reinvent' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'repurpose' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'revolutionize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'scale' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'seize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'strategize' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'streamline' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'syndicate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'synergize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'synthesize' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'target' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'transform' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'transition' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'unleash' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'utilize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'visualize' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'whiteboard' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = '24/365' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = '24/7' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'B2B' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'B2C' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'back-end' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'best-of-breed' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'bleeding-edge' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'bricks-and-clicks' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'clicks-and-mortar' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'collaborative' LIMIT 1
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'compelling' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'cross-platform' LIMIT 1
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'cross-media' LIMIT 1[0m
+  [1m[35mWord Load (0.5ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'customized' LIMIT 1
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'cutting-edge' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'distributed' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'dot-com' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'dynamic' LIMIT 1
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'e-business' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'efficient' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'end-to-end' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'enterprise' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'extensible' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'frictionless' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'front-end' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'global' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'granular' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'holistic' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'impactful' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'innovative' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'integrated' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'interactive' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'intuitive' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'killer' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'leading-edge' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'magnetic' LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'mission-critical' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'next-generation' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'one-to-one' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'open-source' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'out-of-the-box' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'plug-and-play' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'proactive' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'real-time' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'revolutionary' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'robust' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'scalable' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'seamless' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'sticky' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'strategic' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'synergistic' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'transparent' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'turn-key' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'ubiquitous' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'user-centric' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'value-added' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'vertical' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'viral' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'virtual' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'visionary' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'web-enabled' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'wireless' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'world-class' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'cloud' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'social' LIMIT 1[0m
