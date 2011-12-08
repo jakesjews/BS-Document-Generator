@@ -9050,6 +9050,7 @@ Started GET "/" for 127.0.0.1 at 2011-11-08 00:37:49 -0500
   [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 2
 Rendered words/index.pdf.prawn (178.8ms)
 Completed 200 OK in 183ms (Views: 160.6ms | ActiveRecord: 20.5ms)
+<<<<<<< HEAD
 DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
 DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
 DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
@@ -9598,3 +9599,1617 @@ DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated
   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "words" ("created_at", "updated_at", "word", "word_type") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["updated_at", Sat, 19 Nov 2011 19:06:30 UTC +00:00], ["word", "social"], ["word_type", "adjective"]]
   [1m[36m (96.0ms)[0m  [1mCOMMIT[0m
+=======
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 19:12:52 -0500
+
+PGError (FATAL:  password authentication failed for user "postgres"
+):
+  
+
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+  [1m[36m (0.3ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (20.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/Development/bsgenerator/config/environment.rb:5)
+  [1m[36m (0.1ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36mWord Load (424.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'action-items' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'applications' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'architectures' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'bandwidth' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'channels' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'communities' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'content' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'convergence' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'deliverables' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-business' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-commerce' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-markets' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-services' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'e-tailers' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'experiences' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'functionalities' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'infomediaries' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'infrastructures' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'initiatives' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'interfaces' LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'markets' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'methodologies' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'metrics' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'mindshare' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'models' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'networks' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'niches' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'paradigms' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'partnerships' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'platforms' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'portals' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'relationships' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'ROI' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'synergies' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'web-readiness' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'schemas' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'solutions' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'supply-chains' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'systems' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'technologies' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'users' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'decision-trees' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'interoperability' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'XML Interfaces' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'JSON Interfaces' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'RSS Feedsblogs' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'wikis' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'mashups' LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'folksonomies' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'frameworks' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word" = 'blogospheres' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'aggregate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'architect' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'benchmark' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'brand' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'cultivate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'deliver' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'deploy' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'disintermediate' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'drive' LIMIT 1
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'e-enable' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'embrace' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'empower' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'enable' LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'engage' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'engineer' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'enhance' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'envisioneer' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'evolve' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'expedite' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'exploit' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'extend' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'facilitate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'generate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'grow' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'harness' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'implement' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'incentivize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'incubate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'innovate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'integrate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'iterate' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'leverage' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'maximize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'mesh' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'monetize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'morph' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'optimize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'orchestrate' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'recontextualize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'reintermediate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'reinvent' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'repurpose' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'revolutionize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'scale' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'seize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'strategize' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'streamline' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'syndicate' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'synergize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'synthesize' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'target' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'transform' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'transition' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'unleash' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'utilize' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'visualize' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word" = 'whiteboard' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = '24/365' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = '24/7' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'B2B' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'B2C' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'back-end' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'best-of-breed' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'bleeding-edge' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'bricks-and-clicks' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'clicks-and-mortar' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'collaborative' LIMIT 1
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'compelling' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'cross-platform' LIMIT 1
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'cross-media' LIMIT 1[0m
+  [1m[35mWord Load (0.5ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'customized' LIMIT 1
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'cutting-edge' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'distributed' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'dot-com' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'dynamic' LIMIT 1
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'e-business' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'efficient' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'end-to-end' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'enterprise' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'extensible' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'frictionless' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'front-end' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'global' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'granular' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'holistic' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'impactful' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'innovative' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'integrated' LIMIT 1[0m
+  [1m[35mWord Load (0.3ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'interactive' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'intuitive' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'killer' LIMIT 1
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'leading-edge' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'magnetic' LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'mission-critical' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'next-generation' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'one-to-one' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'open-source' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'out-of-the-box' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'plug-and-play' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'proactive' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'real-time' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'revolutionary' LIMIT 1[0m
+  [1m[35mWord Load (0.4ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'robust' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'scalable' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'seamless' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'sticky' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'strategic' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'synergistic' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'transparent' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'turn-key' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'ubiquitous' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'user-centric' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'value-added' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'vertical' LIMIT 1[0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'viral' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'virtual' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'visionary' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'web-enabled' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'wireless' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'world-class' LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'cloud' LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word" = 'social' LIMIT 1[0m
+>>>>>>> f88b64a70e575df31a45c0d5cc425a2bd4198c8d
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Including Compilable in your template handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+DEPRECATION WARNING: Inheriting from ActionView::Template::Handler is deprecated. Since Rails 3, all the API your template handler needs to implement is to respond to #call. (called from <top (required)> at /home/jacob/development/bsgenerator/config/environment.rb:5)
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:39:22 +0000
+  [1m[36m (2.8ms)[0m  [1mSHOW search_path[0m
+  Processing by WordsController#index as PDF
+  [1m[35m (25.1ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (17.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 29[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 2[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 64[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 126[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 63[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 34[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 30[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 8[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 72[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 22[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 66[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 21[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 8[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 31[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 50[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 19[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 16[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 22[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 129[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 61[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 89[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 62[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 76[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 70[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 45[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 14[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 6[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 27[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 21[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 73[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 77[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 36[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 75[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 8[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 112[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 46[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 31[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 90[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 81[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 88[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 86[0m
+Rendered words/index.pdf.prawn (416.9ms)
+Completed 200 OK in 443ms (Views: 377.0ms | ActiveRecord: 65.4ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:40:07 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 10[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 19[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 70[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 12[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 45[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 63[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 51[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 35[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 44[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 23[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 20[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 92[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 37[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 44[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 82[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 88[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 69[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 88[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 75[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 104[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 29[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 18[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 67[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 66[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 72[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 98[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 109[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 63[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 43[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 56[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 11[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 14[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 57[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 18[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 14[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 99[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 67[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 25[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 84[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 29[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 65[0m
+Rendered words/index.pdf.prawn (281.3ms)
+Completed 200 OK in 286ms (Views: 267.1ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:40:47 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 119[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 12[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 62[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 93[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 34[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 30[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 17[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 22[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 35[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 52[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 40[0m
+Rendered words/index.pdf.prawn (210.2ms)
+Completed 500 Internal Server Error in 215ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 0..1)):
+    9: pdf.font_size = 12
+    10: 
+    11: printSubHeading(pdf)
+    12: pdf.text("#{@words.getParagraph1}\n\n")
+    13: 
+    14: printSubHeading(pdf)
+    15: pdf.text("We will utilize :\n\n", :style => :bold)
+  app/models/word.rb:27:in `rand'
+  app/models/word.rb:27:in `getParagraph1'
+  app/views/words/index.pdf.prawn:12:in `_app_views_words_index_pdf_prawn___25561755_87754380'
+  app/controllers/words_controller.rb:6:in `block (2 levels) in index'
+  app/controllers/words_controller.rb:5:in `index'
+
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (25.1ms)
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /home/jacob/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.6ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:41:57 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 19[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 58[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 69[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 31[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 11[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 43[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 27[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 93[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 8[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 19[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 75[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 88[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 109[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 11[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 21[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 38[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 116[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 84[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 10[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 28[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 51[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 103[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 63[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 28[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 121[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 54[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 98[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 101[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 19[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 104[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 29[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 101[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 23[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 81[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 100[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 45[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 68[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 36[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 92[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 67[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 54[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 69[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 18[0m
+Rendered words/index.pdf.prawn (189.3ms)
+Completed 200 OK in 192ms (Views: 173.0ms | ActiveRecord: 18.6ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:42:13 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 37[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 69[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 87[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 90[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 64[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 87[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 29[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 74[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 110[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 122[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 11[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 94[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 45[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 82[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 51[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 93[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 97[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 84[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 87[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 34[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 99[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 85[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 101[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 66[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 36[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 44[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 78[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 17[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 70[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 110[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 72[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 29[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 57[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 25[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 28[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 38[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 96[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 103[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 45[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 11[0m
+Rendered words/index.pdf.prawn (203.0ms)
+Completed 200 OK in 206ms (Views: 184.8ms | ActiveRecord: 20.3ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:47:18 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 125[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 18[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 93[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 87[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 120[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 65[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 108[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 73[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 21[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 120[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 52[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 35[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 113[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 67[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 75[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 79[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 62[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 127[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 77[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 27[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 28[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 120[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 17[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 11[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 126[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 21[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 47[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 101[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 85[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 115[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 101[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 43[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 90[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 44[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 24[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 68[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 68[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 82[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 28[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 30[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 69[0m
+Rendered words/index.pdf.prawn (324.1ms)
+Completed 200 OK in 328ms (Views: 309.5ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:47:24 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 38[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 15[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 108[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 11[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 42[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.8ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 46[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 75[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 17[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 100[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 27[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 26[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 66[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 40[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 125[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 52[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 46[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 28[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 59[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 66[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 29[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 53[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 114[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 77[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 74[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 99[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 103[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 56[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 14[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 51[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 58[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 35[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 73[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 56[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 31[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 42[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 81[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 86[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 31[0m
+Rendered words/index.pdf.prawn (225.3ms)
+Completed 200 OK in 229ms (Views: 209.5ms | ActiveRecord: 18.9ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:47:43 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 112[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 67[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 54[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 14[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 63[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 50[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 68[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 24[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 77[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 19[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 44[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 100[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 110[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 51[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 46[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 32[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 109[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 110[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 11[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 32[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 89[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 40[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 50[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 6[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 6[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 95[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 21[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 16[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 85[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 19[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 19[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 14[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 96[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 35[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 127[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 11[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 82[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 28[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 0[0m
+Rendered words/index.pdf.prawn (250.3ms)
+Completed 200 OK in 255ms (Views: 234.7ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:47:49 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 111[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 70[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 34[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 89[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 44[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 111[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 25[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 51[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 105[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 37[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 95[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 77[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 76[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 27[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 64[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 47[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 66[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 27[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 36[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 38[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 22[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 37[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 29[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 68[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 107[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 105[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 65[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 70[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 114[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 80[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 99[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 25[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 37[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 20[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 72[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.8ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 52[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 24[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 62[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 70[0m
+Rendered words/index.pdf.prawn (240.5ms)
+Completed 200 OK in 244ms (Views: 224.4ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:47:55 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 56[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 94[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 20[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 30[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 29[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 25[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 13[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 12[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 79[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 45[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 103[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 87[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 37[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 34[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 116[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 14[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 79[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 76[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 28[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 40[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 107[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 42[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 5[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 73[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 88[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 89[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 99[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 65[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 95[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 79[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 114[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 57[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 8[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 19[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 82[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 77[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 91[0m
+Rendered words/index.pdf.prawn (226.3ms)
+Completed 200 OK in 230ms (Views: 209.7ms | ActiveRecord: 19.8ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:48:00 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 108[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 62[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 17[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 17[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 129[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 35[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 31[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 14[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 43[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 59[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 77[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 92[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 32[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 96[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 82[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 56[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 94[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 58[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 7[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 20[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 12[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 79[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 96[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 94[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 80[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 13[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 87[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 98[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 69[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 38[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 101[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 4[0m
+Rendered words/index.pdf.prawn (220.6ms)
+Completed 200 OK in 224ms (Views: 205.8ms | ActiveRecord: 17.3ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:48:57 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 105[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 71[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 111[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 45[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 110[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 24[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 101[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 112[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 50[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 57[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 90[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 75[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 19[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 52[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 12[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 93[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 65[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 73[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 22[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 58[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 46[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 124[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 76[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 128[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 107[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 15[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 86[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 62[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 85[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 4[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 70[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 59[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 95[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 124[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 20[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 91[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 99[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 101[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 46[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 4[0m
+Rendered words/index.pdf.prawn (235.1ms)
+Completed 200 OK in 238ms (Views: 219.8ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:49:20 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 69[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 30[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 109[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 85[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 74[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 88[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.8ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 50[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 24[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 35[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 97[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 77[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 31[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 129[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 63[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 46[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 16[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 108[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 69[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 127[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 30[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 38[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 95[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 36[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 71[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 62[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 32[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 20[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 76[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 95[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 50[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 41[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 68[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 86[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 81[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 90[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 47[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 6[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 12[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 22[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 33[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 18[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 31[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 74[0m
+Rendered words/index.pdf.prawn (241.3ms)
+Completed 200 OK in 245ms (Views: 224.9ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/" for 35.40.157.38 at 2011-12-08 16:49:27 +0000
+  Processing by WordsController#index as PDF
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 50[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 71[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 97[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 63[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 23[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 44[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 95[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 7[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 10[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 89[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 82[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 72[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 67[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 122[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 23[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 36[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 2[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 64[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 49[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 25[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 44[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 40[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (1.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 66[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 57[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 104[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 83[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 10[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 99[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 65[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 82[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 60[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 37[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 9[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 94[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 48[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 55[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 22[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 100[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 65[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'adjective'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' LIMIT 1 OFFSET 75[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 26[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'verb'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' LIMIT 1 OFFSET 10[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 18[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 23[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "words" WHERE "words"."word_type" = 'noun'
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' LIMIT 1 OFFSET 20[0m
+Rendered words/index.pdf.prawn (239.6ms)
+Completed 200 OK in 244ms (Views: 219.9ms | ActiveRecord: 22.8ms)

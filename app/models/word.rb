@@ -21,8 +21,8 @@ class Word < ActiveRecord::Base
   end 
 
   def getParagraph1
-	  "We plan to use #{Word.getAdj} #{Word.getNoun} to #{Word.getVerb} our systems." +
-    "This will allow us to easily #{Word.getVerb} more #{Word.getNoun}. " + 
+    "We plan to use #{Word.getAdj} #{Word.getNoun} to #{Word.getVerb} our systems. " + 
+    "This will allow us to easily #{Word.getVerb} more #{Word.getNoun}. " +  
     "Within six months we expect that our #{Word.getAdj} #{Word.getNoun} will bring " +
     "#{rand(99).to_s}% more value to our #{Word.getAdj} #{Word.getNoun}." 
   end
@@ -30,7 +30,7 @@ class Word < ActiveRecord::Base
   def getParagraph2
   	"With the fusion of #{Word.getNoun} and #{Word.getNoun} we will be able to create " +
      "#{Word.getNoun} #{rand(99).to_s}% faster. Our #{Word.getAdj} systems " +
-	   "will implement both #{Word.getAdj} #{Word.getNoun} and #{Word.getAdj} #{Word.getNoun} more than ever before"
+	   "will implement both #{Word.getAdj} #{Word.getNoun} and #{Word.getAdj} #{Word.getNoun} more than ever before."
   end
 
   def getSubHeading
@@ -47,9 +47,9 @@ class Word < ActiveRecord::Base
 
   def getChartData
   	[
-		  ['1', 20],
-		  ['2', 30],
-		  ['3', 40]
+		  ['1', rand(50)],
+		  ['2', rand(50)],
+		  ['3', rand(50)]
 	  ]
   end
 
