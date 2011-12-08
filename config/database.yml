@@ -7,7 +7,7 @@ development:
   adapter: postgresql
   database: bs_generator_dev
   username: postgres
-  password: tiberium1843 
+  password: password 
   pool: 5
   timeout: 5000
 
@@ -18,7 +18,7 @@ test:
   adapter: postgresql
   database: bs_generator_test
   username: postgres
-  password: tiberium1843 
+  password: password
   pool: 5
   timeout: 5000
 
