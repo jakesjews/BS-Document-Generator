@@ -1,51 +1,48 @@
 class Word < ActiveRecord::Base
 
+  @@all_words ||= Word.all
+
   #Returns a random noun
-  def self.getNoun
-	  Word.getRandomWord('noun')
+  def get_noun
+    @@all_words.select{ |word| word.word_type == 'noun' }.sample.word
   end
 
   #Returns a random verb
-  def self.getVerb
-	  Word.getRandomWord('verb')
+  def get_verb
+    @@all_words.select{ |word| word.word_type == 'verb' }.sample.word
   end
 
   #Returns a random adjective 
-  def self.getAdj
-	  Word.getRandomWord('adjective')
+  def get_adj
+    @@all_words.select{ |word| word.word_type == 'adjective' }.sample.word
   end
 
-  def self.getRandomWord(type)
-    offset = rand(Word.where( :word_type => type ).count)
-    Word.offset( offset ).where( :word_type => type ).first.word
-  end 
-
-  def getParagraph1
-    "We plan to use #{Word.getAdj} #{Word.getNoun} to #{Word.getVerb} our systems. " + 
-    "This will allow us to easily #{Word.getVerb} more #{Word.getNoun}. " +  
-    "Within six months we expect that our #{Word.getAdj} #{Word.getNoun} will bring " +
-    "#{rand(99).to_s}% more value to our #{Word.getAdj} #{Word.getNoun}." 
+  def get_paragraph_1
+    "We plan to use #{get_adj} #{get_noun} to #{get_verb} our systems. " +
+    "This will allow us to easily #{get_verb} more #{get_noun}. " +
+    "Within six months we expect that our #{get_adj} #{get_noun} will bring " +
+    "#{rand(99).to_s}% more value to our #{get_adj} #{get_noun}."
   end
 
-  def getParagraph2
-  	"With the fusion of #{Word.getNoun} and #{Word.getNoun} we will be able to create " +
-     "#{Word.getNoun} #{rand(99).to_s}% faster. Our #{Word.getAdj} systems " +
-	   "will implement both #{Word.getAdj} #{Word.getNoun} and #{Word.getAdj} #{Word.getNoun} more than ever before."
+  def get_paragraph_2
+  	"With the fusion of #{get_noun} and #{get_noun} we will be able to create " +
+     "#{get_noun} #{rand(99).to_s}% faster. Our #{get_adj} systems " +
+	   "will implement both #{get_adj} #{get_noun} and #{get_adj} #{get_noun} more than ever before."
   end
 
-  def getSubHeading
-	  ("%s %s") % [ Word.getVerb.capitalize, Word.getNoun.capitalize ]
+  def get_sub_heading
+	  ("%s %s") % [ get_verb.capitalize, get_noun.capitalize ]
   end
 
-  def getHeading
-  	("%s %s") % [ Word.getAdj.capitalize, Word.getNoun.capitalize ]
+  def get_heading
+  	("%s %s") % [ get_adj.capitalize, get_noun.capitalize ]
   end
 
-  def getBulletPoint
-  	("- %s %s") % [ Word.getAdj.capitalize, Word.getNoun.capitalize ]
+  def get_bullet_point
+  	("- %s %s") % [ get_adj.capitalize, get_noun.capitalize ]
   end
 
-  def getChartData
+  def get_chart_data
   	[
 		  ['1', rand(50)],
 		  ['2', rand(50)],
@@ -53,11 +50,11 @@ class Word < ActiveRecord::Base
 	  ]
   end
 
-  def getChartOptions
+  def get_chart_options
   	{
-	    :title   => ("%s %s") % [ Word.getVerb.capitalize, Word.getNoun.capitalize ],
-	    :label_x => Word.getNoun.capitalize,
-	    :label_y => Word.getNoun.capitalize,
+	    :title   => ("%s %s") % [ get_verb.capitalize, get_noun.capitalize ],
+	    :label_x => get_noun.capitalize,
+	    :label_y => get_noun.capitalize,
 	    :at      => [ 0,0 ]
 	}
   end

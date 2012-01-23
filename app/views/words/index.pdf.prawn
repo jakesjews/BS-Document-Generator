@@ -1,24 +1,24 @@
 require 'prawn/graph'
 
-def printSubHeading(pdf)
-	pdf.text("<u>#{@words.getSubHeading}</u>\n\n", :align => :center, :inline_format => true)
+def print_sub_heading(pdf)
+	pdf.text("<u>#{@words.get_sub_heading}</u>\n\n", :align => :center, :inline_format => true)
 end
 
 pdf.font_size = 16
-pdf.text("<u>#{@words.getHeading}</u>\n\n", :style => :bold, :align => :center, :inline_format => true)
+pdf.text("<u>#{@words.get_heading}</u>\n\n", :style => :bold, :align => :center, :inline_format => true)
 pdf.font_size = 12
 
-printSubHeading(pdf)
-pdf.text("#{@words.getParagraph1}\n\n")
+print_sub_heading(pdf)
+pdf.text("#{@words.get_paragraph_1}\n\n")
 
-printSubHeading(pdf)
+print_sub_heading(pdf)
 pdf.text("We will utilize :\n\n", :style => :bold)
 (1..10).each {  
-  	pdf.text("#{@words.getBulletPoint}\n")
+  	pdf.text("#{@words.get_bullet_point}\n")
 }
 pdf.text("\n")
 
-printSubHeading(pdf)
-pdf.text("#{@words.getParagraph2}\n")
+print_sub_heading(pdf)
+pdf.text("#{@words.get_paragraph_2}\n")
 
-pdf.line_chart(@words.getChartData, @words.getChartOptions)
+pdf.line_chart(@words.get_chart_data, @words.get_chart_options)
