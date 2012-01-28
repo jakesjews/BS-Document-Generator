@@ -4,17 +4,17 @@ class Word < ActiveRecord::Base
 
   #Returns a random noun
   def get_noun
-    @@all_words.select{ |word| word.word_type == 'noun' }.sample.word
+    @@all_words.select{ |word| word.word_type == 'noun' }.sample.word_text
   end
 
   #Returns a random verb
   def get_verb
-    @@all_words.select{ |word| word.word_type == 'verb' }.sample.word
+    @@all_words.select{ |word| word.word_type == 'verb' }.sample.word_text
   end
 
   #Returns a random adjective 
   def get_adj
-    @@all_words.select{ |word| word.word_type == 'adjective' }.sample.word
+    @@all_words.select{ |word| word.word_type == 'adjective' }.sample.word_text
   end
 
   def get_paragraph_1
