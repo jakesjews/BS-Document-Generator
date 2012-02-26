@@ -57,6 +57,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.17.2)
     multi_json (1.0.4)
+    newrelic_rpm (3.3.2)
     pdf-reader (1.0.0)
       Ascii85 (~> 1.0.0)
       ruby-rc4
@@ -125,6 +126,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails
   jquery-rails
+  newrelic_rpm
   pg
   prawn
   prawn-graph

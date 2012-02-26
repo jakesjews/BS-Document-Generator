@@ -15494,3 +15494,75 @@ Processing by WordsController#index as PDF
   Rendered text template (0.0ms)
 Sent data  (0.5ms)
 Completed 200 OK in 98ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:46:28 -0500
+  [1m[36mWord Load (2.3ms)[0m  [1mSELECT "words".* FROM "words" [0m
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (41.3ms)
+Completed 200 OK in 159ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:46:31 -0500
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+Completed 200 OK in 105ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:46:32 -0500
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 112ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:47:51 -0500
+  [1m[36mWord Load (2.2ms)[0m  [1mSELECT "words".* FROM "words" [0m
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (49.8ms)
+Completed 200 OK in 265ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:47:52 -0500
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 186ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:47:59 -0500
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 203ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:48:01 -0500
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 182ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:48:12 -0500
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 10739ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:48:26 -0500
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 8508ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-01 23:48:43 -0500
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 11452ms (Views: 0.7ms | ActiveRecord: 0.0ms)
