@@ -2,9 +2,6 @@ BsGenerator::Application.routes.draw do
   
   root :to => 'words#index', :defaults => { :format => 'pdf' }
 
-  get '/mu-ca684160-7a17b384-b9aa916b-0271lecaf' do
-    '42'
-  end
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
