@@ -9,7 +9,7 @@ development:
   host: 192.168.0.119
   port: 5432
   username: postgres
-  password: Jj13113013! 
+  password: ! 
   pool: 5
   timeout: 5000
 
