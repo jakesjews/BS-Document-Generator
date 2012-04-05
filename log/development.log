@@ -15566,3 +15566,4 @@ Processing by WordsController#index as PDF
   Rendered text template (0.0ms)
 Sent data  (0.9ms)
 Completed 200 OK in 11452ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+New Relic Agent not running.
