@@ -1,27 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1322006801.0109458:@value{I"
-class:EFI"BundledAsset;
-FI"id;
-F"%81e00531fcf98e617d1326db06894dfaI"logical_path;
-F"words.jsI"pathname;
-FI"1$root/app/assets/javascripts/words.js.coffee;
-FI"content_type;
-FI"application/javascript;
-FI"
-mtime;
-FI"2011-11-10T20:13:36-05:00;
-FI"	body;
-FI"
-
-;
-TI"asset_paths;
-F[I"1$root/app/assets/javascripts/words.js.coffee;
-FI"dependency_paths;
-F[{I"	path;
-FI"1$root/app/assets/javascripts/words.js.coffee;
-FI"
-mtime;
-FIu:	Timeaé€¼D6
-:@_zoneI"EST;
-T:nano_numi;:nano_deni:submicro"W:offsetiþ°¹I"hexdigest;
-F"%4785117870f420bbb297280d7c44bd89I"_version;
-F"%1c9609bc58b1e77c196de29021583379

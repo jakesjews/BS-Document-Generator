@@ -1,26 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1322006804.0689318:@value{I"
-class:EFI"BundledAsset;
-FI"id;
-F"%947462e89d85d12a65ee438c6aabc793I"logical_path;
-F"scaffolds.cssI"pathname;
-FI"4$root/app/assets/stylesheets/scaffolds.css.scss;
-FI"content_type;
-FI"text/css;
-FI"
-mtime;
-FI"2011-11-10T20:13:36-05:00;
-FI"	body;
-FI"+body{background-color:#fff;color:#333;font-family:verdana, arial, helvetica, sans-serif;font-size:13px;line-height:18px}p,ol,ul,td{font-family:verdana, arial, helvetica, sans-serif;font-size:13px;line-height:18px}pre{background-color:#eee;padding:10px;font-size:11px}a{color:#000}a:visited{color:#666}a:hover{color:#fff;background-color:#000}div.field,div.actions{margin-bottom:10px}#notice{color:green}.field_with_errors{padding:2px;background-color:red;display:table}#error_explanation{width:450px;border:2px solid red;padding:7px;padding-bottom:0;margin-bottom:20px;background-color:#f0f0f0}#error_explanation h2{text-align:left;font-weight:bold;padding:5px 5px 5px 15px;font-size:12px;margin:-7px;margin-bottom:0px;background-color:#c00;color:#fff}#error_explanation ul li{font-size:12px;list-style:square}
-;
-FI"asset_paths;
-F[I"4$root/app/assets/stylesheets/scaffolds.css.scss;
-FI"dependency_paths;
-F[{I"	path;
-FI"4$root/app/assets/stylesheets/scaffolds.css.scss;
-FI"
-mtime;
-FIu:	Timeaé€\ D6
-:@_zoneI"EST;
-T:nano_numi;:nano_deni:submicro"W:offsetiþ°¹I"hexdigest;
-F"%c016c96d3498dd48b11b2433a162065fI"_version;
-F"%1c9609bc58b1e77c196de29021583379

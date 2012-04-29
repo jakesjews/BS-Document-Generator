@@ -1,53 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1322006804.0727754:@value{I"
-class:EFI"BundledAsset;
-FI"id;
-F"%2cec69abddb20c100cd407cb2465156aI"logical_path;
-F"application.cssI"pathname;
-FI"1$root/app/assets/stylesheets/application.css;
-FI"content_type;
-FI"text/css;
-FI"
-mtime;
-FI"2011-11-10T20:13:36-05:00;
-FI"	body;
-FI":/*
- * This is a manifest file that'll automatically include all the stylesheets available in this directory
- * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
- * the top of the compiled file, but it's generally better to create a new file per style scope.
-*/
-;
-FI"asset_paths;
-F[I"1$root/app/assets/stylesheets/application.css;
-FI"4$root/app/assets/stylesheets/scaffolds.css.scss;
-FI"0$root/app/assets/stylesheets/words.css.scss;
-FI"dependency_paths;
-F[	{I"	path;
-FI"1$root/app/assets/stylesheets/application.css;
-FI"
-mtime;
-FIu:	Timeaé€¼D6
-:@_zoneI"EST;
-T:nano_numi;:nano_deni:submicro"W:offsetiþ°¹I"hexdigest;
-F"%93ad7cee3308cdcea0b4e870593f13a2{I"	path;
-FI"!$root/app/assets/stylesheets;
-FI"
-mtime;
-FIu;aé€\ D6
-;I"EST;
-T;i;;i;"W;iþ°¹I"hexdigest;
-F"%422347c3523f078e7cf1e1d96395f1c9{I"	path;
-FI"4$root/app/assets/stylesheets/scaffolds.css.scss;
-FI"
-mtime;
-FIu;aé€\ D6
-;I"EST;
-T;i;;i;"W;iþ°¹I"hexdigest;
-F"%c016c96d3498dd48b11b2433a162065f{I"	path;
-FI"0$root/app/assets/stylesheets/words.css.scss;
-FI"
-mtime;
-FIu;aé€\ D6
-;I"EST;
-T;i;;i;"W;iþ°¹I"hexdigest;
-F"%ab6bd6c31c7716adab2041dfe846ad21I"_version;
-F"%1c9609bc58b1e77c196de29021583379
