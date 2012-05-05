@@ -27,8 +27,11 @@ test:
   timeout: 5000
 
 production:
-  adapter: postgresql 
+  adapter:  postgresql
   encoding: unicode
-  database: bs_generator
   pool: 5
-  timeout: 5000
+  database: resource45133
+  username: dqsnekwerjfsid
+  password: FWmkisvAMfWBmEIwDJgYWn6s5_
+  host: ec2-23-23-201-251.compute-1.amazonaws.com
+  port: 5432
