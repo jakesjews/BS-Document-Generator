@@ -17287,3 +17287,41 @@ Migrating to RenameWordColumn (20120128230001)
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sun, 29 Apr 2012 19:37:34 UTC +00:00], ["updated_at", Sun, 29 Apr 2012 19:37:34 UTC +00:00], ["word_text", "meta"], ["word_type", "adjective"]]
   [1m[35m (10.4ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-05 17:59:12 -0400
+  [1m[36mWord Load (1.3ms)[0m  [1mSELECT "words".* FROM "words" [0m
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (6.7ms)
+Completed 200 OK in 132ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-05 18:00:57 -0400
+Connecting to database specified by database.yml
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" [0m
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (30.6ms)
+Completed 200 OK in 121ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-05 18:01:00 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.4ms)
+Completed 200 OK in 73ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-05 18:01:02 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.4ms)
+Completed 200 OK in 112ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-05 18:01:04 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 73ms (Views: 0.2ms | ActiveRecord: 0.0ms)
