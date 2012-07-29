@@ -17343,3 +17343,12 @@ Processing by WordsController#index as PDF
   Rendered text template (0.0ms)
 Sent data  (27.6ms)
 Completed 200 OK in 119ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-29 02:35:24 -0400
+Connecting to database specified by database.yml
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT "words".* FROM "words" [0m
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (30.6ms)
+Completed 200 OK in 106ms (Views: 30.5ms | ActiveRecord: 0.0ms)
