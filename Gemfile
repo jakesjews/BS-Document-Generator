@@ -8,6 +8,7 @@ gem 'pg'
 gem 'prawn'
 gem 'prawn-graph'
 gem 'unicorn'
+gem 'foreman'
 
 group :development do
   gem 'sqlite3'
