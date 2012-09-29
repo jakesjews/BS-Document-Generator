@@ -17352,3 +17352,815 @@ Processing by WordsController#index as PDF
   Rendered text template (0.0ms)
 Sent data  (30.6ms)
 Completed 200 OK in 106ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (15.9ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.0ms)[0m  DROP TABLE "words"
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "words" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "word_type" varchar(255), "word_text" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35mWord Load (0.1ms)[0m  SELECT "words".* FROM "words" 
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'action-items' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (19.8ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "action-items"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'applications' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "applications"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'architectures' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "architectures"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'bandwidth' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "bandwidth"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'channels' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "channels"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'communities' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "communities"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'content' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "content"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'convergence' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "convergence"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'deliverables' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "deliverables"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'e-business' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "e-business"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'e-commerce' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "e-commerce"], ["word_type", "noun"]]
+  [1m[35m (0.3ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'e-markets' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "e-markets"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'e-services' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "e-services"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'e-tailers' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "e-tailers"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'experiences' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "experiences"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'functionalities' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "functionalities"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'infomediaries' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "infomediaries"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'infrastructures' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "infrastructures"], ["word_type", "noun"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'initiatives' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "initiatives"], ["word_type", "noun"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'interfaces' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "interfaces"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'markets' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "markets"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'methodologies' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "methodologies"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'metrics' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "metrics"], ["word_type", "noun"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'mindshare' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "mindshare"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'models' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "models"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'networks' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "networks"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'niches' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "niches"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'paradigms' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "paradigms"], ["word_type", "noun"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'partnerships' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "partnerships"], ["word_type", "noun"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'platforms' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "platforms"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'portals' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "portals"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'relationships' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "relationships"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'ROI' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "ROI"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'synergies' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "synergies"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'web-readiness' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "web-readiness"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'schemas' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "schemas"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'solutions' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "solutions"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'supply-chains' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "supply-chains"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'systems' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "systems"], ["word_type", "noun"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'technologies' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "technologies"], ["word_type", "noun"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'users' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "users"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'decision-trees' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "decision-trees"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'interoperability' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "interoperability"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'XML Interfaces' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (12.9ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "XML Interfaces"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'JSON Interfaces' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "JSON Interfaces"], ["word_type", "noun"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'RSS Feedsblogs' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "RSS Feedsblogs"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'wikis' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "wikis"], ["word_type", "noun"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'mashups' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "mashups"], ["word_type", "noun"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'folksonomies' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "folksonomies"], ["word_type", "noun"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'frameworks' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "frameworks"], ["word_type", "noun"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'noun' AND "words"."word_text" = 'blogospheres' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "blogospheres"], ["word_type", "noun"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'aggregate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "aggregate"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'architect' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "architect"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'benchmark' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "benchmark"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'brand' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "brand"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'cultivate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "cultivate"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'deliver' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "deliver"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'deploy' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "deploy"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'disintermediate' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "disintermediate"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'drive' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "drive"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'e-enable' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "e-enable"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'embrace' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "embrace"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'empower' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "empower"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'enable' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "enable"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'engage' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "engage"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'engineer' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "engineer"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'enhance' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "enhance"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'envisioneer' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "envisioneer"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'evolve' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:07 UTC +00:00], ["word_text", "evolve"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'expedite' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "expedite"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'exploit' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "exploit"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'extend' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "extend"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'facilitate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "facilitate"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'generate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "generate"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'grow' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "grow"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'harness' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "harness"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'implement' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "implement"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'incentivize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "incentivize"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'incubate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "incubate"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'innovate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "innovate"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'integrate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "integrate"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'iterate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "iterate"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'leverage' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "leverage"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'maximize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "maximize"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'mesh' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "mesh"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'monetize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "monetize"], ["word_type", "verb"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'morph' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (12.7ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "morph"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'optimize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "optimize"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'orchestrate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "orchestrate"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'recontextualize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "recontextualize"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'reintermediate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "reintermediate"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'reinvent' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "reinvent"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'repurpose' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "repurpose"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'revolutionize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "revolutionize"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'scale' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "scale"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'seize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "seize"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'strategize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "strategize"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'streamline' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "streamline"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'syndicate' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "syndicate"], ["word_type", "verb"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'synergize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "synergize"], ["word_type", "verb"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'synthesize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "synthesize"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'target' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "target"], ["word_type", "verb"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'transform' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "transform"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'transition' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "transition"], ["word_type", "verb"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'unleash' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "unleash"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'utilize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "utilize"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'visualize' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "visualize"], ["word_type", "verb"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'verb' AND "words"."word_text" = 'whiteboard' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "whiteboard"], ["word_type", "verb"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = '24/365' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "24/365"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = '24/7' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "24/7"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'B2B' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "B2B"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'B2C' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "B2C"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'back-end' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "back-end"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'best-of-breed' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "best-of-breed"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'bleeding-edge' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "bleeding-edge"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'bricks-and-clicks' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "bricks-and-clicks"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'clicks-and-mortar' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "clicks-and-mortar"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'collaborative' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "collaborative"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'compelling' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "compelling"], ["word_type", "adjective"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'cross-platform' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "cross-platform"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'cross-media' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "cross-media"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'customized' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "customized"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'cutting-edge' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "cutting-edge"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'distributed' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "distributed"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'dot-com' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "dot-com"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'dynamic' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "dynamic"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'e-business' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "e-business"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'efficient' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "efficient"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'end-to-end' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "end-to-end"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'enterprise' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "enterprise"], ["word_type", "adjective"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'extensible' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "extensible"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'frictionless' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "frictionless"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'front-end' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "front-end"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'global' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "global"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'granular' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "granular"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'holistic' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "holistic"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'impactful' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "impactful"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'innovative' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "innovative"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'integrated' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "integrated"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'interactive' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "interactive"], ["word_type", "adjective"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'intuitive' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "intuitive"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'killer' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "killer"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'leading-edge' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "leading-edge"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'magnetic' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "magnetic"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'mission-critical' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "mission-critical"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'next-generation' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "next-generation"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'one-to-one' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "one-to-one"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'open-source' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "open-source"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'out-of-the-box' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "out-of-the-box"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'plug-and-play' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "plug-and-play"], ["word_type", "adjective"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'proactive' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "proactive"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'real-time' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "real-time"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'revolutionary' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "revolutionary"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'robust' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "robust"], ["word_type", "adjective"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'scalable' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "scalable"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'seamless' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "seamless"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'sticky' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "sticky"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'strategic' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "strategic"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'synergistic' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "synergistic"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'transparent' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "transparent"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'turn-key' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "turn-key"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'ubiquitous' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "ubiquitous"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'user-centric' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "user-centric"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'value-added' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "value-added"], ["word_type", "adjective"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'vertical' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "vertical"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'viral' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "viral"], ["word_type", "adjective"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'virtual' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "virtual"], ["word_type", "adjective"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'visionary' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "visionary"], ["word_type", "adjective"]]
+  [1m[35m (0.4ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'web-enabled' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "web-enabled"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'wireless' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "wireless"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'world-class' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "world-class"], ["word_type", "adjective"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'cloud' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "cloud"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'social' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "social"], ["word_type", "adjective"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT "words".* FROM "words" WHERE "words"."word_type" = 'adjective' AND "words"."word_text" = 'meta' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "words" ("created_at", "updated_at", "word_text", "word_type") VALUES (?, ?, ?, ?)[0m  [["created_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["updated_at", Sat, 29 Sep 2012 18:43:08 UTC +00:00], ["word_text", "meta"], ["word_type", "adjective"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:43:23 -0400
+Connecting to database specified by database.yml
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" [0m
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (8.2ms)
+Completed 200 OK in 90ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:43:28 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.4ms)
+Completed 200 OK in 111ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:43:33 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 87ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:43:34 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 98ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:43:36 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 91ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:43:37 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 104ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:26 -0400
+Connecting to database specified by database.yml
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT "words".* FROM "words" [0m
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (26.2ms)
+Completed 200 OK in 105ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:27 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.4ms)
+Completed 200 OK in 71ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:28 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.4ms)
+Completed 200 OK in 111ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:29 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 85ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:29 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 99ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:30 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 70ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:30 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 89ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:32 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 93ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-29 14:44:33 -0400
+Processing by WordsController#index as PDF
+  Rendered text template (0.0ms)
+Sent data  (0.3ms)
+Completed 200 OK in 90ms (Views: 0.2ms | ActiveRecord: 0.0ms)
