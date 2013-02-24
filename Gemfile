@@ -1,17 +1,20 @@
 source 'http://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.0.0'
 
 gem 'rails', '3.2.12'
 
-gem 'pg'
 gem 'prawn'
 gem 'prawn-graph'
-gem 'unicorn'
+gem 'puma'
 gem 'foreman'
 
 group :development do
   gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
 end
 
 group :test do
