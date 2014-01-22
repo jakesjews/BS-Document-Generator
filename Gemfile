@@ -8,6 +8,7 @@ gem 'prawn'
 gem 'prawn-graph'
 gem 'puma'
 gem 'foreman'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'sqlite3'
