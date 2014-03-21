@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
 
-ruby '2.1.0'
+ruby '2.1.1'
 
 gem 'rails', '4.0.2'
 
-gem 'prawn'
+gem 'prawn', '0.14.0'
 gem 'prawn-graph'
 gem 'puma'
 gem 'foreman'
