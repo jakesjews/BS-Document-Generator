@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
-ruby '2.1.1'
+ruby '2.2.0'
 
-gem 'rails', '4.0.2'
+gem 'rails', '4.2.0'
 
 gem 'prawn', '0.14.0'
 gem 'prawn-graph'
